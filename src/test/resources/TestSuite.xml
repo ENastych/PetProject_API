@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="positive tests" time-out="5000">
+        <packages>
+            <package name="trelloAPI.DELETE"/>
+            <package name="trelloAPI.GET"/>
+            <package name="trelloAPI.POST"/>
+            <package name="trelloAPI.PUT"/>
+        </packages>
+    </test>
+</suite>
